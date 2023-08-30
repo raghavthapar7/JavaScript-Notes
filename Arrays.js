@@ -1,3 +1,5 @@
+/*
+
 let arr = ["a", "b", "c", "d", "e"];
 
 // Slice Method
@@ -58,3 +60,14 @@ console.log(newArr.join());
 
 console.log(newArr.join("-"));
 // OUTPUT -- a-b-c-d-e-f-g-h-i-j
+
+*/
+
+// The .at() method
+let arr = [1, 2, 3];
+console.log(arr.at(1));
+// OUTPUT -- 2
+
+// With negative argument
+console.log(arr.at(-1));
+// OUTPUT -- 3
