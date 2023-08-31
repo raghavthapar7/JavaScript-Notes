@@ -60,9 +60,9 @@ console.log(newArr.join());
 
 console.log(newArr.join("-"));
 // OUTPUT -- a-b-c-d-e-f-g-h-i-j
-
 */
 
+/* 
 // The .at() method
 let arr = [1, 2, 3];
 console.log(arr.at(1));
@@ -70,4 +70,21 @@ console.log(arr.at(1));
 
 // With negative argument
 console.log(arr.at(-1));
-// OUTPUT -- 3
+// OUTPUT -- 3 
+
+*/
+
+// THE FOR-EACH METHOD
+let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+arr.forEach((ele) => {
+  console.log(`Element is - ${ele}`);
+});
+
+console.log("------------------");
+
+// Second argument is the index in forEach
+// Third argument is the whole array
+arr.forEach((ele, index) => {
+  console.log(`Element at ${index} - ${ele}`);
+});
