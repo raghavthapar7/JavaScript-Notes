@@ -74,6 +74,7 @@ console.log(arr.at(-1));
 
 */
 
+/* 
 // THE FOR-EACH METHOD
 let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -88,3 +89,13 @@ console.log("------------------");
 arr.forEach((ele, index) => {
   console.log(`Element at ${index} - ${ele}`);
 });
+ */
+
+// FIND METHOD
+let arr = [1, 2, 3, 4, 5, 6, -11, 33, -4, 6, 45];
+
+// This method returns the first element in an array that
+// matches the condition of the callback function
+
+const firstNegativeNumber = arr.find((ele) => ele < 0);
+console.log(firstNegativeNumber);
